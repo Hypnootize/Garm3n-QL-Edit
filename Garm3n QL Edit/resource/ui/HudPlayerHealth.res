@@ -727,7 +727,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"0"
-		"ypos"			"c140"
+		"ypos"			"c90"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"

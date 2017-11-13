@@ -1,65 +1,21 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_server"
-		"OnlyAtMenu" "1"
-	}
-	"CompButton"
-	{
-		"label"	"Play Competitive"
-		"command"	"play_competitive"
-		"subimage"	"../hud/leaderboard_nemesis"
-		"OnlyAtMenu"	"1"
-	}	
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "play_casual"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
+		"label"			"Browse Servers"
+		"command"		"OpenServerBrowser"
+		"OnlyAtMenu"	"0"
+		"subimage" 		"glyph_server_browser"
+	}
+	"TF2SettingsButton"
 	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"tooltip"			""
 	}
 	"ReplayBrowserButton"
 	{
 		"label" "#GameUI_GameMenu_ReplayDemos"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
 	}
 	"ServerButton6vs6"
 	{
@@ -99,13 +55,7 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
+	
 	"CallVoteButton"
 	{
 		"label"			""
