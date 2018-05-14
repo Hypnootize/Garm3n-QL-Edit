@@ -290,7 +290,7 @@
 		if_match
 		{
 			"xpos"				"c-110"
-			"ypos"				"-26"
+			"ypos"				"-27"	
 			"zpos"				"5"
 		}
 		
@@ -313,8 +313,8 @@
 			
 			if_match
 			{
-				"font"			"Garm3nFontSmaller"
-				"textAlignment"		"center"
+				"font"			"Garm3nFontTiny"
+				"textAlignment"	"center"
 			}
 		}
 	}
